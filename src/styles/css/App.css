@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+.sign-up-form {
+  width: 100%;
+  margin-top: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.sign-up-form h3 {
+  font-size: 1.5rem;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+.sign-up-form .close-icon {
+  position: absolute;
+  top: 0;
+  left: 93%;
+}
+.sign-up-form .form-inputs {
+  margin: 0.3em auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.sign-up-form .form-inputs .input-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 0.6em;
+  color: #fff;
+}
+.sign-up-form .form-inputs .form-input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 5px;
+  height: 3em;
+  width: 100%;
+  border: none;
+}
+.sign-up-form .form-inputs p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: #f00031;
+}
+.sign-up-form .btn-submit {
+  width: 80%;
+  height: 3.2em;
+  margin-top: 1em;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.1rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(40, 40, 40)), to(rgb(17, 17, 17)));
+  background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+}
+.sign-up-form button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(rgb(39, 143, 255)), to(rgb(12, 99, 250)));
+  background: linear-gradient(90deg, rgb(39, 143, 255) 0%, rgb(12, 99, 250) 100%);
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.sign-up-form .form-login {
+  font-size: 0.9rem;
+  margin: 0.7em auto;
+  color: #fff;
+  width: 80%;
+  text-align: center;
+}
+.sign-up-form .form-login a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.form-display {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.form-display .mobile-active {
+  display: none;
+}
+.form-display.mobile {
+  width: 100%;
+}
+.form-display.mobile .mobile-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/public/img/img-2.svg");
+  background-size: cover;
+  background-repeat: round;
+}
+.form-display.mobile .mobile-active .started-button {
+  margin-bottom: 5em;
+  padding: 0.3em;
+  background: transparent;
+  border: 2px solid rgb(12, 99, 250);
+  border-radius: 15px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.3rem;
+}
+.form-display.mobile .mobile-active .started-button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(rgb(39, 143, 255)), to(rgb(12, 99, 250)));
+  background: linear-gradient(90deg, rgb(39, 143, 255) 0%, rgb(12, 99, 250) 100%);
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.form-display.mobile .final-form {
+  display: none;
+}
+
+:root {
+  background: -webkit-gradient(linear, left top, right top, from(rgb(39, 176, 255)), to(rgb(0, 232, 236)));
+  background: linear-gradient(90deg, rgb(39, 176, 255) 0%, rgb(0, 232, 236) 100%);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}/*# sourceMappingURL=App.css.map */
