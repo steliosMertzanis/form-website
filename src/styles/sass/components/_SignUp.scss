@@ -83,3 +83,30 @@
     }
   }
 }
+@media screen and (min-width: 600px) {
+  .sign-up-form {
+    width: 90%;
+
+    .form-inputs {
+      width: 70%;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .sign-up-form {
+    width: 85%;
+
+    .form-inputs,
+    .btn-submit {
+      width: 55%;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .form-inputs,
+  .btn-submit {
+    width: 45%;
+  }
+}
