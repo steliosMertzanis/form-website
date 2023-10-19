@@ -22,11 +22,6 @@
   width: 80%;
   margin-bottom: 1rem;
 }
-.sign-up-form .close-icon {
-  position: absolute;
-  top: 0;
-  left: 93%;
-}
 .sign-up-form .form-inputs {
   margin: 0.3em auto;
   width: 80%;
@@ -97,63 +92,19 @@
 
 .form-display {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
-.form-display .mobile-active {
-  display: none;
-}
-.form-display.mobile {
-  width: 100%;
-}
-.form-display.mobile .mobile-active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+
+.form-content-success {
   width: 100%;
   height: 100vh;
-  background-image: url("/public/img/img-2.svg");
-  background-size: cover;
-  background-repeat: round;
+  background-image: url("/public/img/img-3.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.form-display.mobile .mobile-active .started-button {
-  margin-bottom: 5em;
-  padding: 0.3em;
-  background: transparent;
-  border: 2px solid rgb(12, 99, 250);
-  border-radius: 15px;
-  font-family: "PT Sans", sans-serif;
-  font-size: 1.3rem;
-}
-.form-display.mobile .mobile-active .started-button:hover {
-  background: -webkit-gradient(linear, left top, right top, from(rgb(39, 143, 255)), to(rgb(12, 99, 250)));
-  background: linear-gradient(90deg, rgb(39, 143, 255) 0%, rgb(12, 99, 250) 100%);
-  -webkit-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
-}
-.form-display.mobile .final-form {
-  display: none;
+.form-content-success h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
 }
 
 :root {

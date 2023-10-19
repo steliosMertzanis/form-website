@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import useForm from "./useForm";
 import validation from "./validation";
-import { MdClose } from "react-icons/md";
 
 const SignUp = ({ submitForm }) => {
   const { values, handleChange, handleSubmit, errors } = useForm(
@@ -9,19 +8,12 @@ const SignUp = ({ submitForm }) => {
     submitForm
   );
 
-  const [click, setClick] = useState(true);
-  const handleClick = () => setClick(!click);
-
   return (
-    <form className="sign-up-form" onSubmit={handleSubmit} onClose={(f) => f}>
+    <form className="sign-up-form" onSubmit={handleSubmit}>
       <h3>
         Get started with us today! Create your account by filling out the
         information below.
       </h3>
-
-      <div className="close-icon" onClick={handleClick}>
-        {click ? <MdClose onClose={(f) => f} /> : ""}
-      </div>
 
       <div className="form-inputs">
         <label htmlFor="username" className="input-label">

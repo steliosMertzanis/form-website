@@ -1,48 +1,7 @@
 .form-display {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  .mobile-active {
-    display: none;
-  }
-
-  &.mobile {
-    width: 100%;
-    .mobile-active {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      align-items: center;
-      width: 100%;
-      height: 100vh;
-      background-image: url("/public/img/img-2.svg");
-      background-size: cover;
-      background-repeat: round;
-
-      .started-button {
-        margin-bottom: 5em;
-        padding: 0.3em;
-        background: transparent;
-        border: 2px solid rgb(12, 99, 250);
-        border-radius: 15px;
-        font-family: "PT Sans", sans-serif;
-        font-size: 1.3rem;
-
-        &:hover {
-          background: linear-gradient(
-            90deg,
-            rgb(39, 143, 255) 0%,
-            rgb(12, 99, 250) 100%
-          );
-          transition: all 0.4s ease-out;
-        }
-      }
-    }
-
-    .final-form {
-      display: none;
-    }
-  }
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
 }
